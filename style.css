@@ -1,0 +1,58 @@
+/* selector {
+    property: value;
+} */
+
+body {
+    background-color: #ecedf3;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    color: rgb(18, 20, 20);
+}
+
+h1 {
+    color: #3ccfcf;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  } 
+
+h2 {
+    color: #121414;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+nav {
+    color: #121313;
+    text-align: center;
+}
+
+
+p {
+	color: #131414;
+    font-family: 'Times New Roman', Times, serif;
+    width: 10%;
+}
+
+#Mandalorian {
+    padding: 10px;
+    
+}
+
+.thumnails {
+    width: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{width: 300px;
+    height: 200px;
+}
