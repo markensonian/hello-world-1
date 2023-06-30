@@ -15,19 +15,19 @@ function starWarsGamesChecker(){
     }    
     let usersGame = prompt("What's your favorite game?");
     if(usersGame == ""){
-        usersGame = prompt("Seriously?");
+        usersGame = prompt("Really?");
     }
     console.log("We love " + usersGame + "! ");
     document.write("We love " + usersGame + "! ");
 }
 
 function guessGames(){
-    let myGame = KOTOR;
-    let usersGuess = prompt("Which is better between Survivor and KOTOR?");
-    while (usersGuess != myGame){
-    usersGuess = prompt("Seriously? Which is better between Survivor and KOTOR?");
+    let myNumber = 10;
+    let usersGuess = prompt("How many Star Wars games do I have?");
+    while (usersGuess != myNumber){
+    usersGuess = prompt("Seriously?");
   }
-  let gameMessage = "KOTOR!";
+  let gameMessage = "10!";
   alert(gameMessage);
 }
 
@@ -49,5 +49,4 @@ function birthYearChecker(){
 
 starWarsGamesChecker();
 guessGames();
-birthYearChecker();
 rateSite();
