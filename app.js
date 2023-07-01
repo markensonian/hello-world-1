@@ -1,9 +1,20 @@
-// Anatomy of a function
-// Function declaration
-// function nameOfFunction(parameters){
-//    code to be executed; 
-//    code to be executed;
-// }
+'use strict'
+
+let theirLanguage = getLanguage();
+
+function getLanguage(){
+    const userLanguage = prompt("What's your language?");
+    return userLanguage;    
+}
+
+console.log(theirLanguage);
+
+function greetUser(){
+    while(theirLanguage == ""){
+        theirLanguage = prompt("Please let me know what language to use!");
+        console.log(theirLanguage.toUpperCase());
+    }
+}
 
 function starWarsGamesChecker(){
     let message = "Welcome gamer! Are you ready?";
@@ -35,15 +46,6 @@ function rateSite(){
     let userNum = prompt("How many stars is this experience 1-5?");
     for(let i = 0; i < userNum; i++){
         document.write("<img src='https://wallpapers.com/images/hd/darth-revan-kotor-fan-art-rn5tt0xcn8qm0e7t.jpg' alt='Revan'/>");
-}
-}
-
-function birthYearChecker(){
-    let age = prompt("What's your name?");
-    if (birthyear > 1993) {
-    document.write("Welome to heaven.");
-    } else {
-    window.location.href = "https://google.com";
 }
 }
 
