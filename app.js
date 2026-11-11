@@ -33,12 +33,12 @@ function starWarsGamesChecker(){
 }
 
 function guessGames(){
-    let myNumber = 10;
-    let usersGuess = prompt("How many Star Wars games do I have?");
+    let myNumber = 27;
+    let usersGuess = prompt("On a scale of 20-27, how many Star Wars games should you try?");
     while (usersGuess != myNumber){
     usersGuess = prompt("Seriously?");
   }
-  let gameMessage = "10!";
+  let gameMessage = "27!";
   alert(gameMessage);
 }
 
