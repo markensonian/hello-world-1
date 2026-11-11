@@ -43,7 +43,7 @@ function guessGames(){
 }
 
 function rateSite(){
-    let userNum = prompt("How many stars is this experience 1-5?");
+    let userNum = prompt("How awesome is this experience on a scale of 1-3?");
     for(let i = 0; i < userNum; i++){
         document.write("<img src='https://wallpapers.com/images/hd/darth-revan-kotor-fan-art-rn5tt0xcn8qm0e7t.jpg' alt='Revan'/>");
 }
